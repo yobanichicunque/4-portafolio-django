@@ -1,0 +1,12 @@
+1-Crear carpeta con el nombre del proyecto
+2-Abrir carpeta con visual studio code 
+3-Crear entorno virtual y activarlo
+4-Instalar Django en el entorno virtual
+5-Crear el proyecto y correr el proyecto
+6-Cambiar el idioma de Django en Settings
+7-Hacer las migraciones que viene por defecto en Django 
+8-Crear la primera aplicacion
+9-Añadir la app en Settings
+10-Crear la primera vista de la aplicacion 
+11-Añadir las vistas de la aplicacion en Settings del sistema 
+
