@@ -1,0 +1,141 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+{% block title %}Sobre mi{% endblock  %}
+{% block imagen-cabecera %} about {% endblock %}
+{% block titulo-cabecera %}
+                    <div>
+                        <h1 class="display-4 fw-bold">Yobani Chicunque</h1>
+                    </div>
+                    <div>
+                        <h3 class="fs-2">Desarrollador Web</h3>
+                    </div>
+{% endblock %}
+{% block content %}
+   <div class="row d-flex">
+                <div class="col-4 offset-md-auto">
+                    <img class="img-fluid img-thumbnail img-circle img-perfil " src={% static 'core/img/foto-perfil.jpg'%} alt="">
+                </div>
+                <div class="col-6">
+                    <h4><b>¡Hola!</b> Soy Yobani Chicunque, un apasionado programador web con experiencia en el desarrollo de aplicaciones utilizando Django y Vue.js. Mi objetivo es crear soluciones robustas y elegantes que satisfagan las necesidades de los usuarios y superen sus expectativas.
+                    <br><br>¿Qué puedo hacer?<br><br>
+<b>Desarrollo Web con Django:</b> Tengo experiencia en la creación de aplicaciones web potentes y escalables utilizando el framework Django de Python. Desde la configuración inicial del proyecto hasta la implementación de características complejas, puedo ayudarte a llevar tu idea desde la concepción hasta la realidad.
+
+<br><br><b>Interfaz de Usuario Dinámica con Vue.js:</b> Utilizo Vue.js para crear interfaces de usuario interactivas y fluidas. Desde componentes simples hasta aplicaciones de página única (SPA), estoy capacitado para diseñar y desarrollar experiencias de usuario modernas y atractivas.
+
+<br><br><b>Integración de Tecnologías:</b> Me especializo en integrar Django y Vue.js de manera efectiva para crear aplicaciones web completas y cohesivas. Ya sea a través de RESTful APIs o GraphQL, puedo garantizar una comunicación eficiente entre el frontend y el backend de tu aplicación.
+
+                    </h4>
+                
+                </div>
+            </div> 
+            
+            <div class="row d-flex pt-5">
+                <div class="col-12">
+                    <h2 class="fw-bold">Formación Académica</h2>
+                    <h3>Formación Nº 1</h3>
+                    <p><strong>Título obtenido:</strong> Lorem ipsum dolor</p>
+                    <p><strong>Descripción:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio atque praesentium fugiat doloremque, repellendus minus nisi enim nam voluptas velit beatae assumenda! Necessitatibus, eum vitae voluptates sunt quasi optio.</p>
+
+                    <hr>
+
+                    <h3>Formación Nº 2</h3>
+                    <p><strong>Título obtenido:</strong> Lorem ipsum dolor</p>
+                    <p><strong>Descripción:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio atque praesentium fugiat doloremque, repellendus minus nisi enim nam voluptas velit beatae assumenda! Necessitatibus, eum vitae voluptates sunt quasi optio.</p>
+                    <hr>
+                    <h3>Formación Nº 3</h3>
+                    <p><strong>Título obtenido:</strong> Lorem ipsum dolor</p>
+                    <p><strong>Descripción:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio atque praesentium fugiat doloremque, repellendus minus nisi enim nam voluptas velit beatae assumenda! Necessitatibus, eum vitae voluptates sunt quasi optio.</p>
+
+                    <hr>
+                    <h2 class="fw-bold">Conocimientos</h2>
+                    <section class="skills" id="skills">
+                        <div class="skills__container" id="skills">
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/html5-svgrepo-com.svg'%} alt="html5">
+                                </div>
+        
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">HTML5</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/javascript-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">Javascript</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/nodejs-icon-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">NodeJS</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/css3-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">CSS3</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/bootstrap-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">Bootstrap</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/laravel-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">Laravel</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/php-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">PHP</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/mysql-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">MySQL</p>
+                                </div>
+                            </div>
+        
+                            <div class="card__skills">
+                                <div class="skill__thumbnail">
+                                    <img class="skill__logo" src={% static 'core/img/skills/postgresql-logo-svgrepo-com.svg'%} alt="html5">
+                                </div>
+                                <div class="skill__texto">
+                                    <p class="skill__titulo">PostgreSQL</p>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </section>
+                </section>
+                </div>
+
+            </div>
+{% endblock %}

@@ -4,16 +4,16 @@ from django.shortcuts import render, HttpResponse
 
 
 def home(request):
-    return HttpResponse("<h1>Mi portafolio personal</h1><h3>Pagina principal</h3>")
+    return render(request, 'core/home.html')
 
 
 def about(request):
-    return HttpResponse("<h1>Mi portafolio personal</h1><h3>Acerca de...</h3><p>Soy Yobani Chicunque y soy programador</p>")
+    return render(request, 'core/about.html')
 
 
 def portfolio(request):
-    return HttpResponse("<h1>Mi portafolio personal</h1><h3>Binevenido a mi portafolio...</h3><p>Este es mi portafolio</p>")
+    return render(request, 'core/portfolio.html')
 
 
 def contact(request):
-    return HttpResponse("<h1>Mi portafolio personal</h1><h3>Contacto</h3><p>Este es mi contacto</p>")
+    return render(request, 'core/contact.html')
